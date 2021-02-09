@@ -4,14 +4,14 @@ Python script to read app comments from Google Play and send it to a Slack chann
 
 ### Requirements:
 
-- Python3: https://www.python.org/downloads/
-- Google Play Scrapper Module: https://pypi.org/project/google-play-scraper/ (installed in step 3)
+- Python3: <https://www.python.org/downloads/>
+- Google Play Scrapper Module: <https://pypi.org/project/google-play-scraper/> (installed in step 3)
 
 
 #### Installation and Usage:
 
 1 - Create a Slack Incoming Webhook:
-https://api.slack.com/messaging/webhooks
+<https://api.slack.com/messaging/webhooks>
 
 2 - Create and activate the Python Virtual Env:
 ```
