@@ -59,7 +59,7 @@ def extract_results(results, last_update):
 if __name__ == "__main__":
     now = str(datetime.today())[0:19]
     print("Starting extraction", now)
-    last_update = read_last_update()
+    last_update = read_last_update()[:-1]
     print("Sending comments since", last_update)
     results = get_results()
     extract_results(results, last_update)
