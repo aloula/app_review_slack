@@ -1,6 +1,6 @@
 ### Extract app comments and send it to a Slack channel
 
-Simple Python script to read app comments from Google Play and send it to a Slack channel
+Python script to read app comments from Google Play and send it to a Slack channel
 
 ### Requirements:
 
@@ -13,7 +13,7 @@ Simple Python script to read app comments from Google Play and send it to a Slac
 1 - Create a Slack Incoming Webhook:
 https://api.slack.com/messaging/webhooks
 
-2 - Create and activate a virtual env:
+2 - Create and activate the Python Virtual Env:
 ```
 $ cd app_review_slack
 $ sudo apt install python3-venv
